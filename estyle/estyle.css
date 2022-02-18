@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.mx-auto + p{
+    font-family: 'Lobster', cursive;
+    color: #F57ADD;
+    text-align: center;
+    line-height: 70%;
+    font-size: large;
+    font-weight: 600;
+    
+
+}
+.buttonDropdownMenu{
+    margin-top: 25px;
+    margin-left: 30px;
+
+}
+
+.dropdownMenu{
+    
+    margin-top: 60px !important;
+    width: 400px !important;
+    
+    
+    
+    
+}
+.dropdownMenu a{
+    color: #F57ADD;
+    text-align: right;
+    
+}
+.dropdown + p{
+    margin-top: 20px;
+    color: #F57ADD;
+    font-family: 'Pathway Gothic One', sans-serif;
+    line-height: 80%;
+    letter-spacing: 0px;
+}
+main{
+    padding: 20px;
+}
+main h2{
+    margin-top: 50px !important;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+
+}
+main p{
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.containerPrincipal{
+    border-radius: 10px;
+    background-color: #C4E2FF ;
+    overflow: hidden;
+}
+.containerPrincipal img{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.containerPrincipal p{
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    padding-left: 10px;
+    line-height: 20%;
+    
+}
+.containerPrincipal hr{
+    color: #87c4fd;
+    background-color: #87c4fd;
+    height: 1px;
+    
+    
+
+}
+.dash{
+    float: right;
+    
+    margin-top: 20px;
+    margin-right: 20px;
+
+    
+    
+    
+    
+}
+.containerPrincipal hr + p{
+    color: #F57ADD;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    
+}
+
+.containerPrincipal hr + p +p{
+    color: rgb(97, 97, 245);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin-top: 20px;
+    font-size: 16px;
+    font-style: oblique;
+    text-decoration-line: underline;
+}
+
+.containerPrincipal hr + p +p+p{
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    margin-top: 20px;
+    font-size: 14px;
+    font-style: oblique;
+    text-decoration-line: none;
+}
