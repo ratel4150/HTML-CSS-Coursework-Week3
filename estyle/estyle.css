@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.navDesktop{
+    
+    display: none !important;
+
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -155,3 +160,33 @@ footer a:hover{
     color: #f8afe9;
     transition: .3s;
 }
+
+/* Querie-Medium */
+@media (min-width: 540px) {
+
+}
+/* Querie-Large */
+@media (min-width: 900px) {
+    .navDesktop{
+        display: block !important;
+        background-color: #C4E2FF;
+        
+    }
+
+    .navDesktop p{
+        font-family: 'Lobster', cursive;
+        color: #F57ADD;
+        text-align: center;
+        line-height: 70%;
+        font-size: large;
+        font-weight: 600;
+
+    }
+    .navMobile{
+        display: none !important;
+    }
+
+}
+
+
+
