@@ -121,3 +121,37 @@ main p{
     font-style: oblique;
     text-decoration-line: none;
 }
+footer{
+    background-color: #121b24;
+}
+footer ul{
+    list-style-type: none;
+    padding-top: 10px;
+    
+    
+   
+}
+.logo a{
+    font-family: 'Lobster', cursive;
+    color: #F57ADD;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+footer hr{
+    color: #F57ADD;
+    background-color: #F57ADD;
+}
+
+footer a{
+    text-decoration: none;
+    color: #F57ADD;
+    font-family: 'Roboto', sans-serif;
+    text-align: center !important;
+}
+
+
+footer a:hover{
+    color: #f8afe9;
+    transition: .3s;
+}
