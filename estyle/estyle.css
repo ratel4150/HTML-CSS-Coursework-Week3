@@ -6,6 +6,19 @@
     display: none !important;
 
 }
+.menuFooter{
+    display: none !important;
+}
+.rowHiddenprincipal{
+    display: none !important;
+
+}
+
+.rowHiddenprincipal2{
+    display: flex !important;
+    flex-direction: column;
+
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -163,19 +176,79 @@ footer a:hover{
 
 /* Querie-Medium */
 @media (min-width: 540px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        
+    }
+    .rowHiddenprincipal2{
+        display: flex !important;
+    
+    }
+    body{
+        overflow-x: hidden;
+        
+    }
+    button{
+        margin-left: 130px !important;
+    }
+    .colParagraph p{
+        margin-left: 100px !important;
+    }
+    .colPrincipal2 .imagePrincipal{
+        margin-left: 120px !important;
+       
+        
+    }
+
+    
+
 
 }
 /* Querie-Large */
 @media (min-width: 900px) {
+    
     .navMobile{
         display: none !important;
+        
+    }
+    .menuFooter{
+        display: block !important;
+    }
+    .rowHiddenprincipal{
+        display: flex !important;
+    
+    }
+    .rowHiddenprincipal2{
+        display: none !important;
+    }
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        
+    }
+    body{
+        overflow-x: hidden;
+        
     }
 
     .navDesktop{
         display: block !important;
         background-color: #C4E2FF;
+        width: 100%;
         
         
+        
+    }
+    .navDesktop .row{
+        overflow:hidden !important;
+      
+        
+
+
     }
 
     .navDesktop p{
@@ -228,6 +301,55 @@ footer a:hover{
         font-weight: bolder;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
+    .colPrincipal h2{
+        font-size: 100px;
+        text-align: center;
+        
+    }
+    .colPrincipal h2+p{
+        font-size: 43px;
+        
+    }
+   .colPrincipal2 .imagePrincipal{
+       margin-left: 120px !important;
+      
+       
+   }
+
+   .containerPrincipal:hover{
+       border: #F57ADD dashed 1px !important;
+
+   }
+
+   .imageCupcake{
+       margin-left: 55px !important;
+   }
+   .footerMobile{
+       display: none;
+   }
+
+   .menuFooter{
+       height: 140px;
+       background-color: #121b24;
+
+   }
+   .menuFooter li{
+       border-right: dashed 1px  #F57ADD;
+       
+   }
+   .menuFooter a{
+    margin: 15px !important;
+
+   }
+   .menuFooter p{
+       text-align: center;
+       text-decoration: none;
+    color: #F57ADD;
+    font-family: 'Roboto', sans-serif;
+    text-align: center !important;
+   }
+
+    
    
 }
 
