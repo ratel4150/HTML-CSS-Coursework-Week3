@@ -167,9 +167,14 @@ footer a:hover{
 }
 /* Querie-Large */
 @media (min-width: 900px) {
+    .navMobile{
+        display: none !important;
+    }
+
     .navDesktop{
         display: block !important;
         background-color: #C4E2FF;
+        
         
     }
 
@@ -182,10 +187,48 @@ footer a:hover{
         font-weight: 600;
 
     }
-    .navMobile{
-        display: none !important;
+    .col-lg-8 p{
+        
+        margin-top: 66px;
+        color: #F57ADD;
+        font-family: 'Pathway Gothic One', sans-serif;
+        line-height: 20%;
+        letter-spacing: 3px;    
     }
-
+    .col-lg-8 p:hover{
+        
+        margin-top: 66px;
+        color: #fa44d6;
+        font-family: 'Pathway Gothic One', sans-serif;
+        line-height: 20%;
+        letter-spacing: 3px; 
+        transition: .3s;   
+    }
+    menu{
+        background-color:#f8afe9;
+        
+    }
+    menu ul{
+        list-style-type: none;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+    }
+    menu ul li{
+        float: left;
+        
+        
+    }
+    menu ul li a{
+        font-size: 20px;
+        display: block;
+        text-decoration: none;
+        color: #fa44d6;
+        
+        font-weight: bolder;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+   
 }
 
 
